@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <form action="javascript:alert('Submitted!');" ifvalid-enable=":submit">
+      <input
+        type="email"
+        required
+        placeholder="email"
+        value="ahmed@gmail.com"
+      />
+      <br />
+
+      <ul>
+        <li>
+          <label>
+            <input value="karachi" type="radio" required name="city" />
+            karachi
+          </label>
+        </li>
+        <li>
+          <label>
+            <input value="lahor" type="radio" required name="city" />
+            lahor
+          </label>
+        </li>
+        <li>
+          <label>
+            <input value="islamabad" type="radio" required name="city" />
+            islamabad
+          </label>
+        </li>
+      </ul>
+
+      <br />
+
+      <label for="fileUpload">
+        <img
+          height="50"
+          src="https://media2.giphy.com/media/3kMtQfpCdX07udVVQj/200w.gif?cid=82a1493beh7o5gzlyrkx595f253q3hq2w7psh5eanmambic2&ep=v1_gifs_related&rid=200w.gif&ct=s"
+        />
+        <input type="file" id="fileUpload" hidden />
+      </label>
+
+      <br />
+
+      <p>
+        <label>
+          karachi
+          <input value="karachi" type="checkbox" name="country" />
+        </label>
+
+        <label>
+          lahor
+          <input value="lahor" type="checkbox" name="country" />
+        </label>
+
+        <label>
+          islamabad
+          <input value="islamabad" type="checkbox" name="country" />
+        </label>
+      </p>
+
+
+      <br />
+
+      <select>
+        <option value="">karachi</option>
+        <option value="">lahore</option>
+      </select>
+
+      <br />
+      <br />
+
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
