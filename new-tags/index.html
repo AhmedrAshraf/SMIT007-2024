@@ -6,7 +6,52 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Revising HTML</h1>
+    <header>
+      <h1>Revising HTML</h1>
+    </header>
+
+    <table border="1" >
+      <caption>
+        Monthly savings
+      </caption>
+      <thead style="background-color: rgba(169, 48, 143, 0.744);">
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Feb</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>March</td>
+          <td>$100</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <td>total</td>
+        <td>$300</td>
+      </tfoot>
+    </table>
+
+    <hr />
+
+    <figure>
+      <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+      <img
+        src="https://www.w3schools.com/tags/pic_trulli.jpg"
+        alt="Trulli"
+        style="width: 200px"
+      />
+    </figure>
 
     <hr />
 
@@ -22,7 +67,11 @@
 
     <hr />
 
-    <marquee scrollamount="20" direction="right" style="background-color: tomato; padding: 20px; color: white">
+    <marquee
+      scrollamount="20"
+      direction="right"
+      style="background-color: tomato; padding: 20px; color: white"
+    >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eum
       voluptatem, doloremque reprehenderit soluta repellat optio nisi saepe
       nesciunt nostrum. Exercitationem, veritatis dignissimos! Temporibus,
@@ -41,7 +90,7 @@
     <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy the selected text.</p>
     <p>To save a document, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
     <p>To undo the last action, press <kbd>Ctrl</kbd> + <kbd>Z</kbd>.</p>
-    
+
     <hr />
 
     <bdo dir="rtl">Text content</bdo>
@@ -49,6 +98,15 @@
     <hr />
 
     <p>The output of the program is: <samp>Hello, World!</samp></p>
-    
+
+    <hr />
+
+    <footer>
+      <p>
+        Author: Hege Refsnes<br />
+        <a href="mailto:hege@example.com">hege@example.com</a>
+      </p>
+    </footer>
+
   </body>
 </html>
