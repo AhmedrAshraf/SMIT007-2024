@@ -1,0 +1,13 @@
+#heading {
+  color: white;
+}
+header {
+  background-color: beige !important;
+}
+div {
+  background-color: coral;
+}
+footer {
+  background-color: slategrey;
+  color: white;
+}
