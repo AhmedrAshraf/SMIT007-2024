@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar-container {
+  background-color: #3a77fe;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.navbar-container img {
+  height: 50px;
+}
+
+td {
+  padding: 0 10px;
+}
+
+.section1 {
+  display: flex;
+  padding: 30vh 0;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(16, 162, 16);
+  border: 50px solid transparent;
+  border-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/916/979/small/spring-branches-with-leaves-on-border-with-copy-space-green-and-yellow-leaves-frame-on-white-background-vector-illustration-panorama-landscape-summer-leaves-frame-free-png.png")
+    30 round;
+}
+
+.section1 img {
+  height: 200px;
+  width: 200px;
+}
+.line {
+  width: 10%;
+  height: 0;
+  border: 0px;
+  margin: 0 10px;
+  visibility: visible;
+  border-color: white;
+  border-style: dashed;
+  border-bottom-width: 10px;
+}
+
+/* section 2 */
+
+.section2 {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.card {
+  width: 26%;
+  padding: 10px;
+  margin: 0 10px;
+  box-shadow: 2px 2px 26px -12px gray;
+  border: 1px solid gainsboro;
+}
+
+.card img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 10px 0;
+  object-fit: cover;
+}
+
+.desc {
+  color: gray;
+  margin-bottom: 10px;
+}
