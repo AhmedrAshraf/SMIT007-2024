@@ -1,0 +1,51 @@
+body {
+  background-color: brown;
+}
+
+.container {
+  text-align: center;
+}
+.container img {
+  width: 200px;
+}
+.container h2 {
+  color: white;
+}
+
+.row {
+  width: 50%;
+  display: flex;
+  padding: 50px;
+  margin: 0 auto;
+  justify-content: space-around;
+  box-shadow: 0 0 25px -10px tomato;
+  background-color: rgb(151, 43, 24);
+}
+table {
+  margin-top: 20px;
+}
+caption {
+  padding: 5px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 100px;
+  background-color: black;
+}
+td {
+  color: white;
+  font-size: 20px;
+  word-spacing: 5px;
+  text-align: left;
+  min-width: 100px;
+}
+.priceBox {
+  width: 50px;
+  font-size: 14px;
+  text-align: right;
+}
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
