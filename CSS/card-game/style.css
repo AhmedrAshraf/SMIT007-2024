@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bg{
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    filter: brightness(.5) blur(5px);
+}
+
+.card {
+  height: 50%;
+  border-radius: 25px;
+  transition-duration: 1s;
+}
+
+.card:hover {
+  transform: rotatey(180deg) scale(1.8);
+}

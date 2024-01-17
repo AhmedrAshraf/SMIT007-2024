@@ -1,0 +1,28 @@
+form {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin: 20vh auto;
+  padding: 50px;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 5px black;
+  transition-duration: 1s;
+  border-radius: 5px;
+  filter: blur(5px);
+}
+
+input {
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 10px;
+  border: 1px solid gainsboro;
+}
+
+/* hover */
+
+form:hover {
+  box-shadow: 0 0 35px black;
+  filter: blur(0);
+}
