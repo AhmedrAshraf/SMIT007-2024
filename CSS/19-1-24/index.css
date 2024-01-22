@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: wheat;
+}
+
+.board {
+  width: 80vh;
+  transition-duration: 0.5s;
+  height: 80vh;
+  border: 1px solid gray;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px gray;
+}
+.board:hover {
+  transform: scale(0.8);
+  box-shadow: 0 0 50px gray;
+}
+
+.board div {
+  width: 20%;
+  height: 20%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gray {
+  background-color: gray !important;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
