@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#capture{
+    position: relative;
+}
+img {
+  width: 100vw;
+  height: 100vh;
+}
+#first-name {
+  top: 45vh;
+  color: black;
+  left: 17vw;
+  z-index: 10;
+  padding: 0 50px;
+  position: absolute;
+  font-size: 26px;
+  background-color: white;
+}
+#last-name {
+  top: 45vh;
+  color: black;
+  left: 50vw;
+  z-index: 10;
+  position: absolute;
+  padding: 0 50px;
+  font-size: 26px;
+  background-color: white;
+}
+#email {
+  top: 53vh;
+  color: black;
+  left: 17vw;
+  z-index: 10;
+  position: absolute;
+  padding: 0 50px;
+  font-size: 26px;
+  background-color: white;
+}
+#button {
+  left: 40vw;
+  bottom: 18vh;
+  position: absolute;
+  align-self: center;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  transition: 0.5s;
+  padding: 20px 70px;
+  background-color: rgb(0, 94, 255);
+}
+
+#button:hover {
+  background-color: rgb(0, 187, 255);
+}
