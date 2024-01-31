@@ -1,0 +1,118 @@
+.row {
+  gap: 30px;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.firstSection {
+  gap: 30px;
+  width: 45vw;
+  height: 92vh;
+  display: flex;
+  text-align: center;
+  padding: 0 70px;
+  flex-direction: column;
+  justify-content: center;
+}
+.loginImageCover {
+  width: 45vw;
+  height: 92vh;
+  border-radius: 50px;
+}
+p {
+  font-size: 20px;
+}
+.myOwnClass {
+  background-color: #7330f9 !important;
+  padding: 15px 0px !important;
+}
+.line {
+  width: 44%;
+  border: 1px solid gray;
+}
+.orRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.beforeImg {
+  transition: opacity 1s ease-in-out;
+}
+.afterImg {
+  display: none;
+}
+
+.flip-card {
+  perspective: 1000px;
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flip-card-front {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.flip-card-back {
+  background-color: #e74c3c;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+.loginWIthGOogle {
+  width: 20px;
+  height: 20px;
+}
+
+.loginBut {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.profileContinaer {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progi {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  border: 2px solid purple;
+}
+
+.profRow {
+  display: flex;
+  align-items: center;
+}
+.profInfo {
+  margin-left: 10px;
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.loader-container {
+  background-color: darkslateblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  /* animation: bgchanger 1s infinite; */
+  animation: example 0.5s infinite;
+}
+
+.loader {
+  width: 250px;
+  height: 250px;
+  color: white !important;
+}
+
+.logo-loader {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  position: absolute;
+  animation: imageAnimate 1s infinite;
+}
+
+.loadingText {
+  color: white;
+  bottom: 25vh;
+  position: absolute;
+}
+
+@keyframes imageAnimate {
+  10% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  25%,
+  75% {
+    transform: rotate(6deg);
+  }
+}
+
+/* 
+@keyframes bgchanger {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: darkslateblue;
+  }
+} */
+
+.email-box {
+  position: absolute;
+  top: 20px;
+}
+
+.email-box input {
+  width: 70vw;
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 60px;
+  border-radius: 50px;
+}
+
+.email-icon {
+  top: 15px;
+  left: 20px;
+  color: gray;
+  font-size: 30px;
+  position: absolute;
+}
+
+@media screen and (max-width: 780px) {
+   
+.email-icon {
+    top: 15px;
+    left: 20px;
+    color: red;
+    font-size: 30px;
+    position: absolute;
+  }
+   .email-box{
+    display: none;
+   }
+}
