@@ -1,0 +1,22 @@
+.container-login-wrapper {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-login {
+  width: 50vw;
+  height: 60vh;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  box-shadow: 0 0 25px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.butonRadiuus {
+  border-radius: 50px !important;
+}
