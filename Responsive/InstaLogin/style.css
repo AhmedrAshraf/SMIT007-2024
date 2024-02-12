@@ -1,0 +1,90 @@
+/* css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  gap: 50px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame {
+  height: 600px;
+  width: 200;
+}
+#iphone {
+  height: 500px;
+  width: 160;
+  position: absolute;
+  transition-duration: .2s;
+  top: 25px;
+  right: 0;
+}
+.imageManager {
+  width: 380px;
+  position: relative;
+}
+.card {
+  border: 1px solid gray;
+  height: 340px;
+  width: 400px;
+  padding: 20px 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.card img {
+  height: 70px;
+}
+.card p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card button {
+  border: none;
+  background-color: tomato;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  border-radius: 50px;
+}
+.storeButton {
+  width: 160px;
+  height: 50px;
+}
+.storeRow {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 500px) {
+  .row {
+    height: auto;
+    width: 100vw;
+    padding: 50px 20px;
+    flex-direction: column-reverse;
+  }
+
+  .frame {
+    height: 400px;
+    width: 100%;
+  }
+  .iphone {
+    height: 340px;
+    width: 140px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  .imageManager {
+    width: 60%;
+    position: relative;
+  }
+}
