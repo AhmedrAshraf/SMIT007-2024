@@ -1,5 +1,4 @@
-var iphoneImage = document.getElementById("frame");
-// <img src="./iphone.png" alt="homeView" id="iphone" />
+var iphoneImage = document.getElementById("iphone");
 
 setInterval(() => {
   if (iphoneImage.src.includes("/iphone.png")) {

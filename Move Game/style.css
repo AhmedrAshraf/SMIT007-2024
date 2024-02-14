@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition-duration: 1s;
+}
+
+#container-js {
+  background-color: orange;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+h1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  background-color: wheat;
+  font-size: 40px;
+  border: 5px solid saddlebrown;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  transition-duration: 1s;
+  justify-content: center;
+  box-shadow: 2px 2px 32px -2px black;
+}
+h1:hover{
+    transform: rotate(360deg);
+}
