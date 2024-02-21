@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#navbarContainer{
+    position: fixed;
+}
+#firstHead {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  justify-content: center;
+}
+#secondHead {
+  display: flex;
+  padding: 10px 20%;
+  align-items: center;
+  background-color: white;
+  justify-content: space-around;
+}
+#banner {
+  width: 100vw;
+  height: 500px;
+  margin-top: 70px;
+}
+#infoBox {
+  text-align: center;
+  padding: 30px;
+}
+#infoBox p {
+  padding: 10px 20%;
+}
+.flagsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.flagsRow img {
+  height: 40px;
+}
+.cardsRow {
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cardContainer {
+  border: 1px solid gray;
+  height: 350px;
+  background-color: white;
+  width: 22vw;
+  margin: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.cardContainer img {
+  height: 300px;
+}
+.coloredCardsBox {
+  padding-bottom: 60px;
+  background-color: #fff2f3;
+}
+.marginNon {
+  margin: 0;
+}
+
+.footer {
+  width: 100vw;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: rgb(56, 41, 41);
+}
+.sendButton{
+    position: absolute;
+    background-color: wheat;
+}
