@@ -51,9 +51,11 @@
 }
 .cardContainer {
   border: 1px solid gray;
-  height: 22vw;
   background-color: white;
+  height: 22vw;
   width: 22vw;
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
   margin: 20px 10px;
   display: flex;
   justify-content: center;
@@ -94,11 +96,10 @@
     padding-top: 10px;
   }
   #secondHead {
-    font-size: 14px;
-    padding: 2px 10px;
+    font-size: 12px;
+    padding: 2px 5px;
     justify-content: space-between;
   }
-
   /* silder resonsive */
   #banner {
     width: 100vw;
