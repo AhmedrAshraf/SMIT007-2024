@@ -3,8 +3,8 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-#navbarContainer{
-    position: fixed;
+#navbarContainer {
+  position: fixed;
 }
 #firstHead {
   width: 100vw;
@@ -37,10 +37,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 2vw;
 }
 .flagsRow img {
-  height: 40px;
+  height: 3.5vw;
 }
 .cardsRow {
   margin: 60px auto;
@@ -51,7 +51,7 @@
 }
 .cardContainer {
   border: 1px solid gray;
-  height: 350px;
+  height: 22vw;
   background-color: white;
   width: 22vw;
   margin: 20px 10px;
@@ -60,7 +60,9 @@
   align-items: end;
 }
 .cardContainer img {
-  height: 300px;
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
 }
 .coloredCardsBox {
   padding-bottom: 60px;
@@ -78,7 +80,59 @@
   text-align: center;
   background-color: rgb(56, 41, 41);
 }
-.sendButton{
-    position: absolute;
-    background-color: wheat;
+.sendButton {
+  position: absolute;
+  background-color: wheat;
+}
+
+/* styleSheet for small screen (mobile) */
+@media screen and (max-width: 500px) {
+  /* navbar resonsive */
+  #firstHead {
+    padding: 0;
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  #secondHead {
+    font-size: 14px;
+    padding: 2px 10px;
+    justify-content: space-between;
+  }
+
+  /* silder resonsive */
+  #banner {
+    width: 100vw;
+    height: 180px;
+    margin-top: 60px;
+  }
+
+  /* info box */
+  #infoBox {
+    padding: 30px 10px 10px 10px; /* top right bottom left */
+  }
+  #infoBox h1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  #infoBox p {
+    padding: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .flagsRow img {
+    height: 5vw;
+  }
+
+  /* cards row */
+  .cardsRow {
+    margin: 30px auto;
+  }
+  .cardContainer {
+    height: 30vw;
+    width: 30vw;
+    margin: 1vw;
+  }
+  .footer {
+    padding-top: 50px;
+  }
 }
