@@ -55,12 +55,16 @@
   height: 22vw;
   width: 22vw;
   border-radius: 5px;
-  box-shadow: 0 0 5px gray;
   margin: 20px 10px;
   display: flex;
   justify-content: center;
   align-items: end;
+  transition-duration: 1s;
 }
+.cardContainer:hover {
+  box-shadow: 0 0 12px gray;
+}
+
 .cardContainer img {
   height: 90%;
   width: 90%;
