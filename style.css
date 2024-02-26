@@ -1,0 +1,66 @@
+*{
+
+    background-color:lightsteelblue;
+}
+
+
+
+.dancing-script-<uniquifier> {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.logo img {
+width: 200px;
+border-radius: 100px;
+box-shadow: 2px 0px 10px 5px black;
+
+}
+
+.logo {
+
+display: flex;
+justify-content: center !important;
+
+}
+
+.heading{
+font-family:"Dancing Script", cursive;;
+    display: flex;
+    justify-content: center !important;
+    font-weight: 600;
+    
+
+}
+
+.main  h3{
+
+font-size: 50px;
+
+}
+.main a{
+
+text-decoration: none;
+font-weight: bold;
+color: rgb(0, 0, 255);
+font-size: 20px;
+    
+}
+
+.code >a{
+
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    background-color: wheat;
+    color: black;
+}
+.code >a:hover{
+
+    background-color: rgb(251, 215, 148);
+
+
+}
